@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D04D32DC1BD63806006CF0B6 /* UITextView+UITextViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D04D32DA1BD63806006CF0B6 /* UITextView+UITextViewAdditions.m */; settings = {ASSET_TAGS = (); }; };
 		D0F50C3D1BD4DCEB006E49E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F50C3C1BD4DCEB006E49E5 /* main.m */; };
 		D0F50C401BD4DCEB006E49E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F50C3F1BD4DCEB006E49E5 /* AppDelegate.m */; };
 		D0F50C431BD4DCEB006E49E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F50C421BD4DCEB006E49E5 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D04D32DA1BD63806006CF0B6 /* UITextView+UITextViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextView+UITextViewAdditions.m"; path = "../../UITextViewAdditions/UITextView+UITextViewAdditions.m"; sourceTree = "<group>"; };
+		D04D32DB1BD63806006CF0B6 /* UITextView+UITextViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextView+UITextViewAdditions.h"; path = "../../UITextViewAdditions/UITextView+UITextViewAdditions.h"; sourceTree = "<group>"; };
 		D0F50C381BD4DCEB006E49E5 /* TextKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F50C3C1BD4DCEB006E49E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0F50C3E1BD4DCEB006E49E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 		D0F50C3A1BD4DCEB006E49E5 /* TextKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D04D32DA1BD63806006CF0B6 /* UITextView+UITextViewAdditions.m */,
+				D04D32DB1BD63806006CF0B6 /* UITextView+UITextViewAdditions.h */,
 				D0F50C3E1BD4DCEB006E49E5 /* AppDelegate.h */,
 				D0F50C3F1BD4DCEB006E49E5 /* AppDelegate.m */,
 				D0F50C411BD4DCEB006E49E5 /* ViewController.h */,
@@ -272,6 +277,7 @@
 			files = (
 				D0F50C431BD4DCEB006E49E5 /* ViewController.m in Sources */,
 				D0F50C401BD4DCEB006E49E5 /* AppDelegate.m in Sources */,
+				D04D32DC1BD63806006CF0B6 /* UITextView+UITextViewAdditions.m in Sources */,
 				D0F50C3D1BD4DCEB006E49E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +506,7 @@
 				D0F50C671BD4DCEC006E49E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0F50C681BD4DCEC006E49E5 /* Build configuration list for PBXNativeTarget "TextKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +515,7 @@
 				D0F50C6A1BD4DCEC006E49E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0F50C6B1BD4DCEC006E49E5 /* Build configuration list for PBXNativeTarget "TextKitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +524,7 @@
 				D0F50C6D1BD4DCEC006E49E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
